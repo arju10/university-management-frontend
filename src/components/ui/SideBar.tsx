@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Layout, Menu } from "antd";
 
 
+
 import { USER_ROLE } from "@/constants/role";
 import sidebarItems from "@/constants/sidebarItems";
 
@@ -39,7 +40,7 @@ const SideBar = () => {
           marginBottom: "1rem",
         }}
       >
-        PH-University
+       IUB
       </div>
       <Menu
         theme="dark"
