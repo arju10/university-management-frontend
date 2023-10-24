@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { Layout, Menu } from "antd";
 
-
-
 import { USER_ROLE } from "@/constants/role";
 import sidebarItems from "@/constants/sidebarItems";
 
@@ -13,8 +11,7 @@ const { Sider } = Layout;
 const SideBar = () => {
   const [collapsed, setCollapsed] = useState(false);
 
-  const role = USER_ROLE.ADMIN;
-
+  const role = USER_ROLE.STUDENT;
 
   return (
     <Sider
@@ -40,7 +37,7 @@ const SideBar = () => {
           marginBottom: "1rem",
         }}
       >
-       IUB
+        IUB
       </div>
       <Menu
         theme="dark"
