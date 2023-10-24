@@ -34,7 +34,7 @@ const LoginPage = () => {
             margin: "15px 0px",
           }}
         >
-          Login
+          Sign in to your account
         </h1>
         <div>
           <Form submitHandler={onSubmit}>
